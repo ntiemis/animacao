@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+img {
+    width: 300px;
+    transition: 0.5s;
+}
+
+img:hover {
+    box-shadow: 10px 10px 30px gray;
+    filter: grayscale(50%);
+    transform: rotate(360deg) scale(3);
+}
